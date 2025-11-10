@@ -206,7 +206,7 @@ export default function Leccion21BlockchainPage() {
                 <p className="text-red-400">→ Miles de bloques a recalcular</p>
                 
                 <p><strong className="text-white">Paso 5:</strong> Debe hacerlo más rápido que toda la red combinada</p>
-                <p className="text-red-400">→ Prácticamente imposible (necesitaría >51% del poder computacional)</p>
+                <p className="text-red-400">→ Prácticamente imposible (necesitaría &gt;51% del poder computacional)</p>
               </div>
             </div>
 
