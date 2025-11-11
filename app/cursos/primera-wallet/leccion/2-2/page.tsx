@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 2.2: Configurar tu Wallet paso a paso | Tu Primera Wallet - Nodo360',
   description: 'Tutorial completo para configurar tu primera wallet Bitcoin: instalación, creación, seed phrase, recibir y enviar tu primer Bitcoin.',
+  keywords: 'configurar wallet bitcoin, seed phrase, instalar bluewallet, backup wallet, crear wallet bitcoin, tutorial wallet, primera transacción bitcoin',
+  openGraph: {
+    title: 'Configurar tu Wallet Bitcoin Paso a Paso | Tutorial',
+    description: 'Guía práctica completa: instalación, creación de seed phrase, primeros pasos y tu primera transacción Bitcoin.',
+    type: 'article',
+  }
 }
 
 export default function Leccion22WalletPage() {

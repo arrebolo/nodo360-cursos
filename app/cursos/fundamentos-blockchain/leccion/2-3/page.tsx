@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 2.3: Nodos y Red P2P | Fundamentos de Blockchain - Nodo360',
   description: 'Entiende cómo funcionan los nodos, la red peer-to-peer y cómo se mantiene sincronizada la blockchain globalmente.',
+  keywords: 'nodos blockchain, red p2p, peer to peer, nodos completos, nodos ligeros, sincronización blockchain, propagación bloques',
+  openGraph: {
+    title: 'Nodos y Red P2P | Fundamentos de Blockchain',
+    description: 'Cómo funcionan los nodos, tipos de nodos y cómo se mantiene sincronizada la red blockchain globalmente.',
+    type: 'article',
+  }
 }
 
 export default function Leccion23BlockchainPage() {

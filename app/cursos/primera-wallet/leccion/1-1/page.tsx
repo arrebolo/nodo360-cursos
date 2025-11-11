@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 1.1: Hot Wallets vs Cold Wallets | Tu Primera Wallet - Nodo360',
   description: 'Aprende las diferencias entre hot wallets y cold wallets, cuándo usar cada una y cómo proteger tus Bitcoin.',
+  keywords: 'hot wallet, cold wallet, wallets bitcoin, billeteras bitcoin, seguridad bitcoin, hardware wallet, software wallet, proteger bitcoin',
+  openGraph: {
+    title: 'Hot Wallets vs Cold Wallets | Tu Primera Wallet',
+    description: 'Guía completa sobre los tipos de wallets Bitcoin: ventajas, desventajas y cuándo usar cada una según tus necesidades.',
+    type: 'article',
+  }
 }
 
 export default function Leccion11WalletPage() {

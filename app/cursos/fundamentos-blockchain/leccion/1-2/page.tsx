@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 1.2: Historia y Evolución | Fundamentos de Blockchain - Nodo360',
   description: 'Descubre cómo surgió blockchain, desde los primeros conceptos hasta Bitcoin y la evolución de la tecnología.',
+  keywords: 'historia blockchain, satoshi nakamoto, bitcoin 2009, evolución blockchain, generaciones blockchain, ethereum, smart contracts, web3',
+  openGraph: {
+    title: 'Historia y Evolución de Blockchain | De Bitcoin a Web3',
+    description: 'Línea de tiempo completa: desde los conceptos de los 90 hasta las tres generaciones de blockchain y el futuro.',
+    type: 'article',
+  }
 }
 
 export default function Leccion12BlockchainPage() {

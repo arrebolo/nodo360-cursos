@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 2.2: Hash y Criptografía | Fundamentos de Blockchain - Nodo360',
   description: 'Descubre cómo las funciones hash y la criptografía aseguran blockchain y hacen posible la confianza sin intermediarios.',
+  keywords: 'funciones hash, SHA-256, criptografía blockchain, clave pública, clave privada, firmas digitales, seguridad criptográfica',
+  openGraph: {
+    title: 'Hash y Criptografía | Fundamentos de Blockchain',
+    description: 'Aprende cómo las funciones hash, SHA-256 y la criptografía de clave pública aseguran blockchain.',
+    type: 'article',
+  }
 }
 
 export default function Leccion22BlockchainPage() {

@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 2.3: Seguridad y Backups | Tu Primera Wallet - Nodo360',
   description: 'Aprende a proteger tus Bitcoin: mejores prácticas de seguridad, backups múltiples, qué hacer en emergencias y errores comunes a evitar.',
+  keywords: 'seguridad bitcoin, backup seed phrase, proteger bitcoin, almacenar seed phrase, seguridad wallet, mejores prácticas bitcoin, guardar semilla',
+  openGraph: {
+    title: 'Seguridad y Backups para tu Wallet Bitcoin | Guía Esencial',
+    description: 'Reglas de oro de seguridad, cómo hacer backups correctamente y proteger tus Bitcoin de forma profesional.',
+    type: 'article',
+  }
 }
 
 export default function Leccion23WalletPage() {

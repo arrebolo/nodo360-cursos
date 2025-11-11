@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 2.1: Bloques y Cadenas | Fundamentos de Blockchain - Nodo360',
   description: 'Aprende la anatomía de un bloque, cómo se enlazan entre sí y cómo se forma la cadena inmutable de blockchain.',
+  keywords: 'anatomía bloque blockchain, merkle tree, hash criptográfico, cadena de bloques, inmutabilidad blockchain, estructura bloque',
+  openGraph: {
+    title: 'Bloques y Cadenas | Anatomía Técnica de Blockchain',
+    description: 'Estructura completa de un bloque, árboles de Merkle y cómo se forma la cadena inmutable de blockchain.',
+    type: 'article',
+  }
 }
 
 export default function Leccion21BlockchainPage() {

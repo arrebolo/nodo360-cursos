@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 1.3: Por qué es Revolucionario | Fundamentos de Blockchain - Nodo360',
   description: 'Descubre por qué blockchain está transformando industrias y cambiando la forma en que confiamos e intercambiamos valor.',
+  keywords: 'blockchain revolucionario, descentralización, casos de uso blockchain, innovación blockchain, transparencia blockchain, confianza distribuida',
+  openGraph: {
+    title: 'Por qué Blockchain es Revolucionario | Impacto y Casos de Uso',
+    description: 'Los 5 pilares que hacen de blockchain una tecnología transformadora y los problemas del sistema actual que resuelve.',
+    type: 'article',
+  }
 }
 
 export default function Leccion13BlockchainPage() {

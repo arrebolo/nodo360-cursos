@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 1.1: ¿Qué es Blockchain? | Fundamentos de Blockchain - Nodo360',
   description: 'Aprende qué es blockchain, cómo funciona esta tecnología revolucionaria y por qué está cambiando el mundo.',
+  keywords: 'qué es blockchain, cadena de bloques, tecnología blockchain, blockchain español, cómo funciona blockchain, registro distribuido, criptografía',
+  openGraph: {
+    title: '¿Qué es Blockchain? | Fundamentos de Blockchain',
+    description: 'Introducción completa a blockchain: componentes, funcionamiento y diferencias con bases de datos tradicionales.',
+    type: 'article',
+  }
 }
 
 export default function Leccion11BlockchainPage() {

@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 2.1: Cómo elegir tu primera Wallet | Tu Primera Wallet - Nodo360',
   description: 'Guía completa para elegir tu primera wallet Bitcoin: criterios de selección, comparación de wallets populares y recomendaciones según tu perfil.',
+  keywords: 'elegir wallet bitcoin, bluewallet, muun wallet, electrum, sparrow wallet, ledger, trezor, coldcard, comparación wallets bitcoin',
+  openGraph: {
+    title: 'Cómo Elegir tu Primera Wallet Bitcoin | Guía Completa',
+    description: 'Criterios esenciales, comparación de wallets móviles y hardware, y recomendaciones según tu nivel de experiencia.',
+    type: 'article',
+  }
 }
 
 export default function Leccion21WalletPage() {
