@@ -1,0 +1,12 @@
+{
+  "curso": "primera-wallet",
+  "modulo": 2,
+  "numLecciones": 3,
+  "lecciones": [
+    "2-1",
+    "2-2",
+    "2-3"
+  ],
+  "creado": "2025-11-10T18:44:55.054Z",
+  "estado": "pendiente"
+}
