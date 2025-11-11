@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 3.1: Cómo Recibir Bitcoin | Tu Primera Wallet - Nodo360',
   description: 'Aprende a recibir Bitcoin de forma segura: tipos de direcciones, generar QR, buenas prácticas de privacidad y errores comunes a evitar.',
+  keywords: 'recibir bitcoin, direcciones bitcoin, native segwit, bech32, código QR bitcoin, tipos de direcciones, legacy, taproot, privacidad bitcoin',
+  openGraph: {
+    title: 'Cómo Recibir Bitcoin de Forma Segura | Tu Primera Wallet',
+    description: 'Guía completa sobre tipos de direcciones Bitcoin, cómo generar QR y mejores prácticas de privacidad al recibir.',
+    type: 'article',
+  }
 }
 
 export default function Leccion31WalletPage() {

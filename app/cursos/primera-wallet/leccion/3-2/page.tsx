@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 3.2: Cómo Enviar Bitcoin | Tu Primera Wallet - Nodo360',
   description: 'Guía completa para enviar Bitcoin de forma segura: proceso de 8 pasos con verificaciones, envíos de prueba, uso de exploradores de bloques.',
+  keywords: 'enviar bitcoin, transacción bitcoin, verificar dirección, fees bitcoin, block explorer, mempool, envío de prueba, seguridad transacciones',
+  openGraph: {
+    title: 'Cómo Enviar Bitcoin de Forma Segura | Tu Primera Wallet',
+    description: 'Proceso completo de 8 pasos con verificaciones críticas, envíos de prueba y uso de exploradores de bloques.',
+    type: 'article',
+  }
 }
 
 export default function Leccion32WalletPage() {

@@ -4,6 +4,12 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lección 3.3: Fees y Confirmaciones | Tu Primera Wallet - Nodo360',
   description: 'Entiende los fees de Bitcoin, cómo elegir el fee correcto, qué son las confirmaciones, transacciones atascadas (RBF y CPFP) y cómo usar mempool.space.',
+  keywords: 'fees bitcoin, confirmaciones bitcoin, sat/vB, RBF, CPFP, mempool.space, transacciones atascadas, prioridad transacción, comisiones bitcoin',
+  openGraph: {
+    title: 'Fees y Confirmaciones en Bitcoin | Tu Primera Wallet',
+    description: 'Aprende cómo funcionan los fees de Bitcoin, cómo elegir el fee correcto y qué hacer si una transacción se atasca.',
+    type: 'article',
+  }
 }
 
 export default function Leccion33WalletPage() {
