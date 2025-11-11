@@ -348,7 +348,7 @@ export default function Leccion11WalletPage() {
           </Link>
           
           <Link 
-            href="/cursos/primera-wallet/leccion/1-2"
+            href="/cursos/primera-wallet/leccion/2-1"
             className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors"
           >
             Siguiente Lección →

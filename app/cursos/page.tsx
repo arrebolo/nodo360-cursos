@@ -106,6 +106,14 @@ export default function CursosPage() {
       {/* Header */}
       <div className="relative overflow-hidden bg-gradient-to-r from-orange-900/30 to-red-900/30 border-b border-orange-500/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6">
+            <Link href="/" className="hover:text-white transition-colors">
+              Inicio
+            </Link>
+            <span>/</span>
+            <span className="text-white">Cursos</span>
+          </nav>
           <div className="text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full mb-6">
               <span className="text-orange-400 text-sm font-semibold">NODO360</span>
@@ -320,7 +328,7 @@ export default function CursosPage() {
               Empezar Ahora Gratis
             </Link>
             <Link 
-              href="/comunidad"
+              href="/proximamente"
               className="px-8 py-4 bg-gray-700 hover:bg-gray-600 text-white font-bold rounded-lg transition-colors"
             >
               Unirse a la Comunidad

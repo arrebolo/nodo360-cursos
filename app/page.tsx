@@ -17,7 +17,7 @@ export default function Home() {
               <Link href="/cursos" className="text-white hover:text-nodo-naranja transition">
                 Cursos
               </Link>
-              <Link href="/recursos" className="text-white hover:text-nodo-naranja transition">
+              <Link href="/proximamente" className="text-white hover:text-nodo-naranja transition">
                 Recursos
               </Link>
             </nav>
